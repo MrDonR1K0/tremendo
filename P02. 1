@@ -1,0 +1,10 @@
+//1. Calcula el mayor de 2 enteros mediante el uso de un IF
+
+<?php
+$a=10;
+$b=5;
+IF ($a > $b)
+  echo "Pum ese numero es mayor que ese otro numero";
+ ELSE
+  echo "Ese numero NO es mayor que ese otro numero";
+?>
