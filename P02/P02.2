@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html><body>
+<?php
+$calificacion = 6;
+switch ($calificacion) {
+    case $calificacion >= 5 && $calificacion <= 6:
+        echo "Aprobado";
+        break;
+    case $calificacion >= 7 && $calificacion <= 8:
+        echo "Notable";
+        break;
+    case $calificacion >= 9 && $calificacion <= 10:
+        echo "Sobresaliente";
+        break;
+    default:
+        echo "Calificación no válida";
+}
+?> 
+</body></html>
