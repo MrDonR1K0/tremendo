@@ -5,7 +5,7 @@
 <html><body>
 <?php
 $motos = array("Yamaha", "Honda", "Kawasaki", "Ducati");
-$coches = array("Renault", "Opel", "Seat", "Audi");
+$coches = array("Volkswagen", "Opel", "Mercedes", "Audi");
 ?> 
 </body></html>
 
@@ -16,7 +16,7 @@ $coches = array("Renault", "Opel", "Seat", "Audi");
 <html><body>
 <?php
 $motos = array("Yamaha", "Honda", "Kawasaki", "Ducati");
-$coches = array("Renault", "Opel", "Seat", "Audi");
+$coches = array("Volkswagen", "Opel", "Mercedes", "Audi");
 for ($x = 0; $x < count($coches); $x++) {
     echo $coches[$x] . "<br>";
 }
@@ -34,7 +34,7 @@ foreach ($motos as $moto) {
     echo $moto . "<br>";
 }
 echo "<br>";
-$coches = array("Renault", "Opel", "Seat", "Audi");
+$coches = array("Volkswagen", "Opel", "Mercedes", "Audi");
 sort($coches);
 foreach ($coches as $coche) {
     echo $coche . "<br>";
@@ -57,7 +57,7 @@ function mostrarResultadosOrdenados($array) {
 $motos = array("Yamaha", "Honda", "Kawasaki", "Ducati");
 mostrarResultadosOrdenados($motos);
 echo "<br>";
-$coches = array("Renault", "Opel", "Seat", "Audi");
+$coches = array("Volkswagen", "Opel", "Mercedes", "Audi");
 mostrarResultadosOrdenados($coches);
 ?> 
 </body></html>
@@ -80,7 +80,7 @@ function mostrarResultadosOrdenados($array) {
 $motos = array("Yamaha", "Honda", "Kawasaki", "Ducati");
 mostrarResultadosOrdenados($motos);
 echo "<br>";
-$coches = array("Renault", "Opel", "Seat", "Audi");
+$coches = array("Volkswagen", "Opel", "Mercedes", "Audi");
 mostrarResultadosOrdenados($coches);
 echo "<br>";
 ?> 
@@ -110,7 +110,7 @@ function mostrarResultadosOrdenados($array, $buscar) {
 $motos = array("Yamaha", "Honda", "Kawasaki", "Ducati");
 mostrarResultadosOrdenados($motos, "Ducati");
 echo "<br>";
-$coches = array("Renault", "Opel", "Seat", "Audi");
+$coches = array("Volkswagen", "Opel", "Mercedes", "Audi");
 mostrarResultadosOrdenados($coches, "Prueba");
 echo "<br>";
 ?> 
